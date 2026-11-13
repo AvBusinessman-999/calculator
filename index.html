@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="icon" href="data:,">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="calculator">
+        <div id="display">0</div>
+        <div class="buttons-grid">
+            <button id="clear-btn" class="span-two danger">AC</button>
+            <button id="backspace-btn" class="secondary">⌫</button>
+            <button class="operator" data-op="/">÷</button>
+
+            <button class="digit">7</button>
+            <button class="digit">8</button>
+            <button class="digit">9</button>
+            <button class="operator" data-op="*">×</button>
+
+            <button class="digit">4</button>
+            <button class="digit">5</button>
+            <button class="digit">6</button>
+            <button class="operator" data-op="-">−</button>
+
+            <button class="digit">1</button>
+            <button class="digit">2</button>
+            <button class="digit">3</button>
+            <button class="operator" data-op="+">+</button>
+
+            <button class="digit span-two">0</button>
+            <button id="decimal-btn">.</button>
+            <button id="equals-btn" class="accent">=</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

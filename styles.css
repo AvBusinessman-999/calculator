@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #0f172a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.calculator {
+    background-color: #1e293b;
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.6);
+    width: 340px;
+}
+
+#display {
+    background-color: #0f172a;
+    color: #f8fafc;
+    font-size: 2.2rem;
+    text-align: right;
+    padding: 18px 15px;
+    border-radius: 10px;
+    margin-bottom: 18px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    border: 1px solid #334155;
+}
+
+.buttons-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+button {
+    width: calc(25% - 7.5px);
+    height: 58px;
+    font-size: 1.3rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #334155;
+    color: #f8fafc;
+    transition: background-color 0.15s;
+}
+
+button:hover {
+    background-color: #475569;
+}
+
+.span-two {
+    width: calc(50% - 5px);
+}
+
+.operator {
+    background-color: #2563eb;
+}
+
+.operator:hover {
+    background-color: #1d4ed8;
+}
+
+.accent {
+    background-color: #10b981;
+}
+
+.accent:hover {
+    background-color: #059669;
+}
+
+.danger {
+    background-color: #ef4444;
+}
+
+.danger:hover {
+    background-color: #dc2626;
+}
+
+.secondary {
+    background-color: #64748b;
+}
